@@ -1,0 +1,46 @@
+body {
+  height: 100vh;
+  background: #D5E1EF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background: #FFFFFF;
+  width: 288px;
+  height: 465px;
+  padding: 16px;
+  border-radius: 20px;
+  box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.0476518);
+}
+
+.card img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+h1 {
+  margin: 24px 10px 0px 10px;
+  height: 56px;
+  font-family: 'Outfit';
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27.72px;
+  text-align: center;
+  color: #1F314F;
+  letter-spacing: 0.1875px;
+}
+
+p {
+  text-align: center;
+  margin: 16px;
+  margin-bottom: 24px;
+  height: 57px;
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  color: #7D889E;
+  letter-spacing: 0.1875px;
+}

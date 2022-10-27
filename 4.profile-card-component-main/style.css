@@ -1,0 +1,125 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: 'Kumbh Sans';
+    font-style: normal;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #19A1AE;
+}
+.card {
+    background-color: rgb(255, 255, 255);
+    width: 326px;
+    height: 374px;
+    box-shadow: 0px 50px 100px -20px rgba(8, 70, 94, 0.504835);
+    border-radius: 15px;
+    overflow: hidden;
+}
+.name {
+    margin-top: 24px;
+}
+.header {
+    width: 100%;
+    height: 140px;
+}
+.img-victor {
+    width: 86px;
+    height: 86px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 5px solid #FFFFFF;
+    border-radius: 50%;
+}
+.font {
+    font-family: 'Kumbh Sans';
+    font-style: normal;
+}
+.text-one {
+    margin-top: -60px;
+}
+h1 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+}
+.user {
+    text-align: center;
+    margin: 24px 96px 0px;
+}
+.city {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    margin: 13px 0px 28px;
+    color: #6b7082;
+}
+span {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #6b7082;    
+}
+hr {
+    margin: 0px;
+}
+.text-two {
+    display: flex;
+    justify-content: space-around;
+    margin: 0px;
+    width: 100%;
+    height: 78px;
+    
+}
+.stats {
+    width: 100px;
+}
+.stats-amount h1 {
+    margin-top: 24px;
+    margin-bottom: 0px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    margin: 0px;
+}
+.stats-text {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+    letter-spacing: 1.5px;
+}
+.text-two h1 {
+    margin-bottom: 0px;
+}
+.center {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.attribution {
+    display: none;
+}
+/* .one {
+    margin-right: 25px;
+} */
+
+@media screen and (min-width: 900px) {
+    .card {
+        width: 350px;
+    }
+    .attribution {
+        display: block;
+        color: #2b2f2f;
+        position: absolute;
+        bottom: 0px;
+        right: 50%;
+        transform: translateX(50%);
+    }
+}

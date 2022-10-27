@@ -1,0 +1,169 @@
+body {
+    background-color: #E0E8FF;
+    height: 100vh;
+}
+h2 {
+    color: #1F2E55;
+    font-size: 22px;
+    width: 263px;
+    margin: 32px 32px 0px 32px;
+}
+img {
+    max-width: 100%;
+}
+p.text {
+    color: #717FA6;
+    margin: 16px 32px 0px 32px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+}
+button.proceed {
+    border: none;
+    background-color: #382AE1;
+    color: #ffffff;
+    margin: 24px;
+    margin-bottom: 0px;
+    width: 279px;
+    height: 50px;
+    border-radius: 11px;
+}
+button.cancel {
+    border: none;
+    background-color: white;
+    color: #717FA6;
+    margin: 24px ;
+}
+a {
+    color: #382AE1;
+    margin: 33px 16px 31px 0px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 17px;
+    text-decoration-line: underline;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.card {
+    background-color: #ffffff;
+    width: 327px;
+    height: 567px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.plan {
+    background-color: #F7F9FF;
+    margin: 24px;
+    margin-bottom: 0px;
+    width: 279px;
+    height: 81px;
+    border-radius: 11px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.planA {
+    display: flex;
+}
+img.music-icon {
+    width: 48px;
+    height: 48px;
+    margin: 17px 0px 16px 16px;
+}
+.offer {
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 19px;
+    margin: 21px 0px 19px 20px;
+}
+.time, .price {
+    margin: 3px;
+}
+.RHD {
+    font-family: 'Red Hat Display';
+}
+
+@media screen and (min-width: 900px) {
+    h2 {
+        color: #1F2E55;
+        font-size: 22px;
+        width: 263px;
+        margin: 45px 48px 0px 48px;
+    }
+    p.text {
+        color: #717FA6;
+        margin: 16px 32px 0px 32px;
+        text-align: center;
+        width: 354px;
+        height: 78px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+    }
+    button.proceed {
+        border: none;
+        background-color: #382AE1;
+        color: #ffffff;
+        margin: 32px 48px;
+        margin-bottom: 0px;
+        width: 354px;
+        height: 50px;
+        border-radius: 11px;
+    }
+    button.cancel {
+        border: none;
+        background-color: white;
+        color: #717FA6;
+        margin: 32px 0px 48px;
+        font-weight: 900;
+        font-size: 15px;
+        line-height: 20px;
+    }
+    a {
+        color: #382AE1;
+        margin: 40px 24px 39px 0px;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 19px;
+    }
+    .center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .card {
+        width: 450px;
+        height: 697px;
+    }
+    .plan {
+        background-color: #F7F9FF;
+        margin: 20px 48px 0px 48px;
+        width: 354px;
+        height: 98px;
+    }
+    img.music-icon {
+        width: 48px;
+        height: 48px;
+        margin: 17px 0px 16px 16px;
+    }
+    .offer {
+        font-weight: 900;
+        font-size: 14px;
+        line-height: 19px;
+        margin: 21px 0px 19px 20px;
+    }
+    .time, .price {
+        margin: 3px;
+    }
+    .RHD {
+        font-family: 'Red Hat Display';
+    }    
+}
